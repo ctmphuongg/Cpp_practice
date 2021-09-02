@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+int main() {
+  int x, y, z, result;
+  int a;
+  std::cin >> a;
+  x = a % 8;
+  a = (int)(a/8);
+  y =  a % 8;
+  a = (int)(a/8);
+  z =  a % 8;
+  result = z*100 + y*10 + x*1;
+  std::cout << result;
+}
